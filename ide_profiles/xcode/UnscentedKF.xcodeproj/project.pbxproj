@@ -9,9 +9,9 @@
 /* Begin PBXAggregateTarget section */
 		7D728FDABB6C4FDA990041BE /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 0419C491B58C42B2B96CDADC /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = F5F792D5F4FC40A9ADF937B7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
-				0E152CFC0DB84173B8F34DB2 /* CMake Rules */,
+				F98B722305EE4A49858CDA83 /* CMake Rules */,
 			);
 			dependencies = (
 			);
@@ -20,13 +20,13 @@
 		};
 		9A614C86A9CE403E962C0DBA /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = ED01B639AF6B4B5DA4443B12 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = D04165347D4B4E25A124608C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
-				9A081531852B409A83A1DAED /* CMake Rules */,
+				05A494A5818A4A71BDBCA88E /* CMake Rules */,
 			);
 			dependencies = (
-				54253D76E1B2470D8E0A17A9 /* PBXTargetDependency */,
-				21E34C11293643F191BAD8E7 /* PBXTargetDependency */,
+				EB94D04D627C4BD78A1D6CE4 /* PBXTargetDependency */,
+				66AEBAA0CCEC4628B7BEFF94 /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
@@ -34,59 +34,59 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		07AD976AC3594EADAB93A45D /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/src/ukf.cpp */ = {isa = PBXBuildFile; fileRef = 0D2BB7BF82BE41B481842011 /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/src/ukf.cpp */; };
-		250A782601924279AA57692D /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/src/tools.cpp */ = {isa = PBXBuildFile; fileRef = A8443BF7464C4BB4A78DFAB2 /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/src/tools.cpp */; };
-		5E724C23184E41F1B37066D6 /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/src/main.cpp */ = {isa = PBXBuildFile; fileRef = 89E0C40580D341348E151F0A /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/src/main.cpp */; };
-		B0960DAA60524CFCB6AB3657 /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A8A83081D8C4455FA3686BA9 /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/CMakeLists.txt */; };
+		3CDF890ADB9D4446A62EB3FA /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/src/main.cpp */ = {isa = PBXBuildFile; fileRef = 4DA3F3958E194536B1673DC8 /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/src/main.cpp */; };
+		7C15DBB7490D4859AF6D16D7 /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/src/ukf.cpp */ = {isa = PBXBuildFile; fileRef = 3DBBFDBEA9474C158796850C /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/src/ukf.cpp */; };
+		88AD5C70829D49479CFC063B /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = D832AF6FEFF54208822E910B /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/CMakeLists.txt */; };
+		DAFFC90B27374B8F87E6E6C7 /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/src/tools.cpp */ = {isa = PBXBuildFile; fileRef = 64380B4FAB2442268F8EA766 /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/src/tools.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		1571D59589AD4E3FA1F9404F /* Release */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Release;
-		};
-		6D719132534247579A7C6883 /* Debug */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Debug;
-		};
-		7D1EB7CD4DC942AC9844C2E9 /* MinSizeRel */ = {
+		A340345505A34053AA3BBC03 /* MinSizeRel */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = MinSizeRel;
 		};
-		EDDEEB5525E8451EBD48CBA0 /* RelWithDebInfo */ = {
+		B251FF32135049DBAA08CCFA /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		B800E07575EA475F95BEBD94 /* RelWithDebInfo */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = RelWithDebInfo;
 		};
+		CC343EB61AEF4B4E887274A6 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		C6D1D32B2AFF4F248C6A9B25 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2C06742627C44F61BCAD7E23 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 587CEEF7E3EA4667BBA6057F;
-			remoteInfo = UnscentedKF;
-		};
-		D846C2FFCC08404BA2F4940B /* PBXContainerItemProxy */ = {
+		2B48A8A954104D6A894FE445 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2C06742627C44F61BCAD7E23 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7D728FDABB6C4FDA990041BE;
 			remoteInfo = ZERO_CHECK;
 		};
-		FA2D5571B65E4A1AA288179A /* PBXContainerItemProxy */ = {
+		D0DDC1DF309741A1901439C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C06742627C44F61BCAD7E23 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 587CEEF7E3EA4667BBA6057F;
+			remoteInfo = UnscentedKF;
+		};
+		DB658B44CFD045169F713549 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2C06742627C44F61BCAD7E23 /* Project object */;
 			proxyType = 1;
@@ -96,79 +96,79 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0D2BB7BF82BE41B481842011 /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/src/ukf.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ukf.cpp; path = src/ukf.cpp; sourceTree = SOURCE_ROOT; };
-		7ED17094B0D2443CAB62C5B5 /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		89E0C40580D341348E151F0A /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
-		A8443BF7464C4BB4A78DFAB2 /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/src/tools.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tools.cpp; path = src/tools.cpp; sourceTree = SOURCE_ROOT; };
-		A8A83081D8C4455FA3686BA9 /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		CF9BD947C0794666940284A0 /* UnscentedKF */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = UnscentedKF; sourceTree = BUILT_PRODUCTS_DIR; };
-		D10001B26454436F8BB5633E /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		1CA960D64A12432BB19AA302 /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3DBBFDBEA9474C158796850C /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/src/ukf.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ukf.cpp; path = src/ukf.cpp; sourceTree = SOURCE_ROOT; };
+		4DA3F3958E194536B1673DC8 /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		5E7E454CD425451488B7B8D3 /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		64380B4FAB2442268F8EA766 /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/src/tools.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tools.cpp; path = src/tools.cpp; sourceTree = SOURCE_ROOT; };
+		8426AD4E6FC34C7087ED07B1 /* UnscentedKF */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = UnscentedKF; sourceTree = BUILT_PRODUCTS_DIR; };
+		D832AF6FEFF54208822E910B /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		04C976DB1A9D4741A733DA1D /* Products */ = {
+		544DC88BB7724126BFB38337 = {
 			isa = PBXGroup;
 			children = (
-				CF9BD947C0794666940284A0 /* UnscentedKF */,
+				769EDDD5EE74412EB1802E48 /* UnscentedKF */,
+				6CF7BA8B91E04A3983D3273B /* ALL_BUILD */,
+				AF274E67139549F39407692B /* ZERO_CHECK */,
+				EBFB1DE4225047468E3E6A5B /* Products */,
 			);
-			name = Products;
 			sourceTree = "<group>";
 		};
-		0FAD49C5198348339A54F1C9 /* Source Files */ = {
+		6CF7BA8B91E04A3983D3273B /* ALL_BUILD */ = {
 			isa = PBXGroup;
 			children = (
-				89E0C40580D341348E151F0A /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/src/main.cpp */,
-				A8443BF7464C4BB4A78DFAB2 /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/src/tools.cpp */,
-				0D2BB7BF82BE41B481842011 /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/src/ukf.cpp */,
-			);
-			name = "Source Files";
-			sourceTree = "<group>";
-		};
-		62EC1D84BE884517B469D2DD /* ZERO_CHECK */ = {
-			isa = PBXGroup;
-			children = (
-				E630947327034DDFAC18400A /* CMake Rules */,
-				D10001B26454436F8BB5633E /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/CMakeLists.txt */,
-			);
-			name = ZERO_CHECK;
-			sourceTree = "<group>";
-		};
-		6EBCCEFD590643B29F030983 /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				E363963E5F454B83BED7420C /* CMake Rules */,
-				7ED17094B0D2443CAB62C5B5 /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/CMakeLists.txt */,
+				F967CC222F9949A39DA10DD8 /* CMake Rules */,
+				5E7E454CD425451488B7B8D3 /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/CMakeLists.txt */,
 			);
 			name = ALL_BUILD;
 			sourceTree = "<group>";
 		};
-		764B25CBB1584E9CA29FC93B = {
+		769EDDD5EE74412EB1802E48 /* UnscentedKF */ = {
 			isa = PBXGroup;
 			children = (
-				7D3E4D9609044B8691FCD901 /* UnscentedKF */,
-				6EBCCEFD590643B29F030983 /* ALL_BUILD */,
-				62EC1D84BE884517B469D2DD /* ZERO_CHECK */,
-				04C976DB1A9D4741A733DA1D /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		7D3E4D9609044B8691FCD901 /* UnscentedKF */ = {
-			isa = PBXGroup;
-			children = (
-				0FAD49C5198348339A54F1C9 /* Source Files */,
-				A8A83081D8C4455FA3686BA9 /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/CMakeLists.txt */,
+				DCDE7FE6654249DE99E190AD /* Source Files */,
+				D832AF6FEFF54208822E910B /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/CMakeLists.txt */,
 			);
 			name = UnscentedKF;
 			sourceTree = "<group>";
 		};
-		E363963E5F454B83BED7420C /* CMake Rules */ = {
+		8DBBEFAFBE3F4BA2B236FFBC /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		E630947327034DDFAC18400A /* CMake Rules */ = {
+		AF274E67139549F39407692B /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				8DBBEFAFBE3F4BA2B236FFBC /* CMake Rules */,
+				1CA960D64A12432BB19AA302 /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		DCDE7FE6654249DE99E190AD /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DA3F3958E194536B1673DC8 /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/src/main.cpp */,
+				64380B4FAB2442268F8EA766 /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/src/tools.cpp */,
+				3DBBFDBEA9474C158796850C /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/src/ukf.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		EBFB1DE4225047468E3E6A5B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8426AD4E6FC34C7087ED07B1 /* UnscentedKF */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F967CC222F9949A39DA10DD8 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -180,18 +180,18 @@
 /* Begin PBXNativeTarget section */
 		587CEEF7E3EA4667BBA6057F /* UnscentedKF */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A3B9130B9DAC49B997CF39FB /* Build configuration list for PBXNativeTarget "UnscentedKF" */;
+			buildConfigurationList = 83BEBAF3C11341C7AF4E8FB9 /* Build configuration list for PBXNativeTarget "UnscentedKF" */;
 			buildPhases = (
-				B5C08E8949B24AB3AB8A789B /* Sources */,
+				48A69A07B0EE4BBE879B3FCF /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9300C396980C4730816D6BB6 /* PBXTargetDependency */,
+				980ADF2FBE054CBDACFB4F5D /* PBXTargetDependency */,
 			);
 			name = UnscentedKF;
 			productName = UnscentedKF;
-			productReference = CF9BD947C0794666940284A0 /* UnscentedKF */;
+			productReference = 8426AD4E6FC34C7087ED07B1 /* UnscentedKF */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -203,18 +203,18 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 0820;
 			};
-			buildConfigurationList = A1C4C4A8121B46CEA3C5FD54 /* Build configuration list for PBXProject "UnscentedKF" */;
+			buildConfigurationList = 27AD0205F5A74C4384766610 /* Build configuration list for PBXProject "UnscentedKF" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				6D719132534247579A7C6883 /* Debug */,
-				1571D59589AD4E3FA1F9404F /* Release */,
-				7D1EB7CD4DC942AC9844C2E9 /* MinSizeRel */,
-				EDDEEB5525E8451EBD48CBA0 /* RelWithDebInfo */,
+				B251FF32135049DBAA08CCFA /* Debug */,
+				CC343EB61AEF4B4E887274A6 /* Release */,
+				A340345505A34053AA3BBC03 /* MinSizeRel */,
+				B800E07575EA475F95BEBD94 /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = 764B25CBB1584E9CA29FC93B;
+			mainGroup = 544DC88BB7724126BFB38337;
 			projectDirPath = ../../;
 			projectRoot = "";
 			targets = (
@@ -226,35 +226,7 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		06AE04735A1344B997CA097C = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
-			showEnvVarsInLog = 0;
-		};
-		0E152CFC0DB84173B8F34DB2 /* CMake Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake Rules";
-			outputPaths = (
-"/Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/ide_profiles/xcode/CMakeFiles/ZERO_CHECK"			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/ide_profiles/xcode -f /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/ide_profiles/xcode/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
-			showEnvVarsInLog = 0;
-		};
-		9A081531852B409A83A1DAED /* CMake Rules */ = {
+		05A494A5818A4A71BDBCA88E /* CMake Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -267,7 +239,7 @@ exit 0";
 			shellScript = "make -C /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/ide_profiles/xcode -f /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/ide_profiles/xcode/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
-		A80DF680D63A49EC985BA216 = {
+		67CD81556A774811BF9EB30B = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -282,101 +254,69 @@ exit 0";
 exit 0";
 			showEnvVarsInLog = 0;
 		};
+		C4D7CF3C19E5419B95254AE2 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		F98B722305EE4A49858CDA83 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			outputPaths = (
+"/Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/ide_profiles/xcode/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/ide_profiles/xcode -f /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/ide_profiles/xcode/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B5C08E8949B24AB3AB8A789B /* Sources */ = {
+		48A69A07B0EE4BBE879B3FCF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E724C23184E41F1B37066D6 /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/src/main.cpp */,
-				250A782601924279AA57692D /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/src/tools.cpp */,
-				07AD976AC3594EADAB93A45D /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/src/ukf.cpp */,
+				3CDF890ADB9D4446A62EB3FA /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/src/main.cpp */,
+				DAFFC90B27374B8F87E6E6C7 /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/src/tools.cpp */,
+				7C15DBB7490D4859AF6D16D7 /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/src/ukf.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		21E34C11293643F191BAD8E7 /* PBXTargetDependency */ = {
+		66AEBAA0CCEC4628B7BEFF94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D728FDABB6C4FDA990041BE /* ZERO_CHECK */;
+			targetProxy = DB658B44CFD045169F713549 /* PBXContainerItemProxy */;
+		};
+		980ADF2FBE054CBDACFB4F5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D728FDABB6C4FDA990041BE /* ZERO_CHECK */;
+			targetProxy = 2B48A8A954104D6A894FE445 /* PBXContainerItemProxy */;
+		};
+		EB94D04D627C4BD78A1D6CE4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 587CEEF7E3EA4667BBA6057F /* UnscentedKF */;
-			targetProxy = C6D1D32B2AFF4F248C6A9B25 /* PBXContainerItemProxy */;
-		};
-		54253D76E1B2470D8E0A17A9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7D728FDABB6C4FDA990041BE /* ZERO_CHECK */;
-			targetProxy = FA2D5571B65E4A1AA288179A /* PBXContainerItemProxy */;
-		};
-		9300C396980C4730816D6BB6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7D728FDABB6C4FDA990041BE /* ZERO_CHECK */;
-			targetProxy = D846C2FFCC08404BA2F4940B /* PBXContainerItemProxy */;
+			targetProxy = D0DDC1DF309741A1901439C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0DF653612A35457B8B905A20 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
-				SYMROOT = "/Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/ide_profiles/xcode/build";
-			};
-			name = MinSizeRel;
-		};
-		2941DA7EC2984AA9A8E6603A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
-				SYMROOT = "/Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/ide_profiles/xcode/build";
-			};
-			name = Debug;
-		};
-		54EB3A5FC3644B49835AB5A5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/ide_profiles/xcode";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = Release;
-		};
-		60FCBE44EEDA429A9B111165 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/ide_profiles/xcode";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		6BB6EC58D0984F32AC169492 /* Release */ = {
+		103E604C7E8E4C7CBF54AC4E /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -395,14 +335,12 @@ exit 0";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
 			};
-			name = Release;
+			name = RelWithDebInfo;
 		};
-		6D56664076E44463B469B4C6 /* Debug */ = {
+		182B18BE92E54D83B45007AD /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -410,20 +348,17 @@ exit 0";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
 				INSTALL_PATH = "";
-				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1.11.0/lib";
-				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib /usr/local/opt/openssl/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1.11.0/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/libuv/1.11.0/lib";
-				OTHER_CPLUSPLUSFLAGS = "   -I/usr/local/include -I/usr/local/opt/openssl/include    -std=c++11";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lz -lssl -luv -luWS";
+				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = UnscentedKF;
+				PRODUCT_NAME = ZERO_CHECK;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/ide_profiles/xcode";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
 			};
-			name = Debug;
+			name = MinSizeRel;
 		};
-		6EACECD4EDE84402AC6802AF /* RelWithDebInfo */ = {
+		2CE14142A7854C89B350CB96 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ONLY_ACTIVE_ARCH = YES;
@@ -432,7 +367,70 @@ exit 0";
 			};
 			name = RelWithDebInfo;
 		};
-		76338B90CF964FE6864C58D6 /* RelWithDebInfo */ = {
+		42DD70C6EC4B4C559AFEBA02 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/ide_profiles/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		53B9EA68B11B493DA5CD707B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/ide_profiles/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		55E4044BE35C4597B837ACA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/ide_profiles/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		5AC371452DA04B8098B4211C /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -458,7 +456,37 @@ exit 0";
 			};
 			name = RelWithDebInfo;
 		};
-		77F49FAC6EE94A59B23956C1 /* Release */ = {
+		5BCEBD399CE542038F8C9121 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/ide_profiles/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		62638EC9E6F3468EA91D9D6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = "/Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/ide_profiles/xcode/build";
+			};
+			name = Release;
+		};
+		88A60DEF29874FC8B4DBDCAC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -484,82 +512,21 @@ exit 0";
 			};
 			name = Release;
 		};
-		83D0DED4ED6443B099ACF104 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/ide_profiles/xcode";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = Debug;
-		};
-		B483CCC72C0C4F2AA42D5525 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/ide_profiles/xcode";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		BE5B0CCADEA841898605BF6A /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/ide_profiles/xcode";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		CAF70FE144D0401D9F841589 /* Release */ = {
+		93061882A108428883BD60B9 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
 				SYMROOT = "/Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/ide_profiles/xcode/build";
 			};
-			name = Release;
+			name = MinSizeRel;
 		};
-		D0737DCE26BD4BAF8887AF0B /* Debug */ = {
+		B2C580B7ECFF4B6A9A62021C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -567,9 +534,12 @@ exit 0";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
 				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
+				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1.11.0/lib";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib /usr/local/opt/openssl/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1.11.0/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/libuv/1.11.0/lib";
+				OTHER_CPLUSPLUSFLAGS = "   -I/usr/local/include -I/usr/local/opt/openssl/include    -std=c++11";
+				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lz -lssl -luv -luWS";
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
+				PRODUCT_NAME = UnscentedKF;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/ide_profiles/xcode";
 				USE_HEADERMAP = NO;
@@ -577,7 +547,7 @@ exit 0";
 			};
 			name = Debug;
 		};
-		D6AA845F53B7476C85B648A7 /* RelWithDebInfo */ = {
+		BA158B222D6C45C894A30688 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -590,15 +560,15 @@ exit 0";
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
+				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/ide_profiles/xcode";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
 			};
-			name = RelWithDebInfo;
+			name = Debug;
 		};
-		D6B6F9DBFC6542B5907F5D66 /* MinSizeRel */ = {
+		EC00110E68674BEFA58872AD /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -624,49 +594,79 @@ exit 0";
 			};
 			name = MinSizeRel;
 		};
+		F839EBA62F3646CEBDEE0429 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk;
+				SYMROOT = "/Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/ide_profiles/xcode/build";
+			};
+			name = Debug;
+		};
+		FEDC6D999618407A8BCE0652 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/ide_profiles/xcode";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0419C491B58C42B2B96CDADC /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		27AD0205F5A74C4384766610 /* Build configuration list for PBXProject "UnscentedKF" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D0737DCE26BD4BAF8887AF0B /* Debug */,
-				54EB3A5FC3644B49835AB5A5 /* Release */,
-				60FCBE44EEDA429A9B111165 /* MinSizeRel */,
-				D6AA845F53B7476C85B648A7 /* RelWithDebInfo */,
+				F839EBA62F3646CEBDEE0429 /* Debug */,
+				62638EC9E6F3468EA91D9D6E /* Release */,
+				93061882A108428883BD60B9 /* MinSizeRel */,
+				2CE14142A7854C89B350CB96 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		A1C4C4A8121B46CEA3C5FD54 /* Build configuration list for PBXProject "UnscentedKF" */ = {
+		83BEBAF3C11341C7AF4E8FB9 /* Build configuration list for PBXNativeTarget "UnscentedKF" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2941DA7EC2984AA9A8E6603A /* Debug */,
-				CAF70FE144D0401D9F841589 /* Release */,
-				0DF653612A35457B8B905A20 /* MinSizeRel */,
-				6EACECD4EDE84402AC6802AF /* RelWithDebInfo */,
+				B2C580B7ECFF4B6A9A62021C /* Debug */,
+				88A60DEF29874FC8B4DBDCAC /* Release */,
+				EC00110E68674BEFA58872AD /* MinSizeRel */,
+				5AC371452DA04B8098B4211C /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		A3B9130B9DAC49B997CF39FB /* Build configuration list for PBXNativeTarget "UnscentedKF" */ = {
+		D04165347D4B4E25A124608C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6D56664076E44463B469B4C6 /* Debug */,
-				77F49FAC6EE94A59B23956C1 /* Release */,
-				D6B6F9DBFC6542B5907F5D66 /* MinSizeRel */,
-				76338B90CF964FE6864C58D6 /* RelWithDebInfo */,
+				BA158B222D6C45C894A30688 /* Debug */,
+				FEDC6D999618407A8BCE0652 /* Release */,
+				5BCEBD399CE542038F8C9121 /* MinSizeRel */,
+				103E604C7E8E4C7CBF54AC4E /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		ED01B639AF6B4B5DA4443B12 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		F5F792D5F4FC40A9ADF937B7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				83D0DED4ED6443B099ACF104 /* Debug */,
-				6BB6EC58D0984F32AC169492 /* Release */,
-				BE5B0CCADEA841898605BF6A /* MinSizeRel */,
-				B483CCC72C0C4F2AA42D5525 /* RelWithDebInfo */,
+				53B9EA68B11B493DA5CD707B /* Debug */,
+				55E4044BE35C4597B837ACA0 /* Release */,
+				182B18BE92E54D83B45007AD /* MinSizeRel */,
+				42DD70C6EC4B4C559AFEBA02 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
