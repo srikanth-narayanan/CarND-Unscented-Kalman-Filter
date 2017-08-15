@@ -34,42 +34,10 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		3CDF890ADB9D4446A62EB3FA /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/src/main.cpp */ = {isa = PBXBuildFile; fileRef = 4DA3F3958E194536B1673DC8 /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/src/main.cpp */; };
-		7C15DBB7490D4859AF6D16D7 /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/src/ukf.cpp */ = {isa = PBXBuildFile; fileRef = 3DBBFDBEA9474C158796850C /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/src/ukf.cpp */; };
-		88AD5C70829D49479CFC063B /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = D832AF6FEFF54208822E910B /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/CMakeLists.txt */; };
-		DAFFC90B27374B8F87E6E6C7 /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/src/tools.cpp */ = {isa = PBXBuildFile; fileRef = 64380B4FAB2442268F8EA766 /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/src/tools.cpp */; };
+		3CDF890ADB9D4446A62EB3FA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4DA3F3958E194536B1673DC8 /* main.cpp */; };
+		7C15DBB7490D4859AF6D16D7 /* ukf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3DBBFDBEA9474C158796850C /* ukf.cpp */; };
+		DAFFC90B27374B8F87E6E6C7 /* tools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 64380B4FAB2442268F8EA766 /* tools.cpp */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXBuildStyle section */
-		A340345505A34053AA3BBC03 /* MinSizeRel */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = MinSizeRel;
-		};
-		B251FF32135049DBAA08CCFA /* Debug */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Debug;
-		};
-		B800E07575EA475F95BEBD94 /* RelWithDebInfo */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = RelWithDebInfo;
-		};
-		CC343EB61AEF4B4E887274A6 /* Release */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Release;
-		};
-/* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
 		2B48A8A954104D6A894FE445 /* PBXContainerItemProxy */ = {
@@ -96,13 +64,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1CA960D64A12432BB19AA302 /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		3DBBFDBEA9474C158796850C /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/src/ukf.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ukf.cpp; path = src/ukf.cpp; sourceTree = SOURCE_ROOT; };
-		4DA3F3958E194536B1673DC8 /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
-		5E7E454CD425451488B7B8D3 /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		64380B4FAB2442268F8EA766 /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/src/tools.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tools.cpp; path = src/tools.cpp; sourceTree = SOURCE_ROOT; };
+		1CA960D64A12432BB19AA302 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3DBBFDBEA9474C158796850C /* ukf.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ukf.cpp; path = src/ukf.cpp; sourceTree = SOURCE_ROOT; };
+		4DA3F3958E194536B1673DC8 /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		5E7E454CD425451488B7B8D3 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		64380B4FAB2442268F8EA766 /* tools.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tools.cpp; path = src/tools.cpp; sourceTree = SOURCE_ROOT; };
+		7599737C1F42BFE100A04AB4 /* measurement_package.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = measurement_package.h; path = src/measurement_package.h; sourceTree = "<group>"; };
+		7599737D1F42BFEB00A04AB4 /* tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tools.h; path = src/tools.h; sourceTree = "<group>"; };
+		7599737E1F42BFF000A04AB4 /* ukf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ukf.h; path = src/ukf.h; sourceTree = "<group>"; };
 		8426AD4E6FC34C7087ED07B1 /* UnscentedKF */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = UnscentedKF; sourceTree = BUILT_PRODUCTS_DIR; };
-		D832AF6FEFF54208822E910B /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		D832AF6FEFF54208822E910B /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -120,16 +91,27 @@
 			isa = PBXGroup;
 			children = (
 				F967CC222F9949A39DA10DD8 /* CMake Rules */,
-				5E7E454CD425451488B7B8D3 /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/CMakeLists.txt */,
+				5E7E454CD425451488B7B8D3 /* CMakeLists.txt */,
 			);
 			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		7599737B1F42BFAF00A04AB4 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				7599737E1F42BFF000A04AB4 /* ukf.h */,
+				7599737D1F42BFEB00A04AB4 /* tools.h */,
+				7599737C1F42BFE100A04AB4 /* measurement_package.h */,
+			);
+			name = "Header Files";
 			sourceTree = "<group>";
 		};
 		769EDDD5EE74412EB1802E48 /* UnscentedKF */ = {
 			isa = PBXGroup;
 			children = (
 				DCDE7FE6654249DE99E190AD /* Source Files */,
-				D832AF6FEFF54208822E910B /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/CMakeLists.txt */,
+				7599737B1F42BFAF00A04AB4 /* Header Files */,
+				D832AF6FEFF54208822E910B /* CMakeLists.txt */,
 			);
 			name = UnscentedKF;
 			sourceTree = "<group>";
@@ -145,7 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				8DBBEFAFBE3F4BA2B236FFBC /* CMake Rules */,
-				1CA960D64A12432BB19AA302 /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/CMakeLists.txt */,
+				1CA960D64A12432BB19AA302 /* CMakeLists.txt */,
 			);
 			name = ZERO_CHECK;
 			sourceTree = "<group>";
@@ -153,9 +135,9 @@
 		DCDE7FE6654249DE99E190AD /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				4DA3F3958E194536B1673DC8 /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/src/main.cpp */,
-				64380B4FAB2442268F8EA766 /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/src/tools.cpp */,
-				3DBBFDBEA9474C158796850C /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/src/ukf.cpp */,
+				4DA3F3958E194536B1673DC8 /* main.cpp */,
+				64380B4FAB2442268F8EA766 /* tools.cpp */,
+				3DBBFDBEA9474C158796850C /* ukf.cpp */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
@@ -204,16 +186,12 @@
 				LastUpgradeCheck = 0820;
 			};
 			buildConfigurationList = 27AD0205F5A74C4384766610 /* Build configuration list for PBXProject "UnscentedKF" */;
-			buildSettings = {
-			};
-			buildStyles = (
-				B251FF32135049DBAA08CCFA /* Debug */,
-				CC343EB61AEF4B4E887274A6 /* Release */,
-				A340345505A34053AA3BBC03 /* MinSizeRel */,
-				B800E07575EA475F95BEBD94 /* RelWithDebInfo */,
-			);
 			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
 			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 544DC88BB7724126BFB38337;
 			projectDirPath = ../../;
 			projectRoot = "";
@@ -231,42 +209,15 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputPaths = (
+			);
 			name = "CMake Rules";
 			outputPaths = (
-"/Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/ide_profiles/xcode/CMakeFiles/ALL_BUILD"			);
+				"/Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/ide_profiles/xcode/CMakeFiles/ALL_BUILD",
+			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "make -C /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/ide_profiles/xcode -f /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/ide_profiles/xcode/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
-			showEnvVarsInLog = 0;
-		};
-		67CD81556A774811BF9EB30B = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
-			showEnvVarsInLog = 0;
-		};
-		C4D7CF3C19E5419B95254AE2 = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
 			showEnvVarsInLog = 0;
 		};
 		F98B722305EE4A49858CDA83 /* CMake Rules */ = {
@@ -276,7 +227,8 @@ exit 0";
 			);
 			name = "CMake Rules";
 			outputPaths = (
-"/Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/ide_profiles/xcode/CMakeFiles/ZERO_CHECK"			);
+				"/Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/ide_profiles/xcode/CMakeFiles/ZERO_CHECK",
+			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "make -C /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/ide_profiles/xcode -f /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/ide_profiles/xcode/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
@@ -289,9 +241,9 @@ exit 0";
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CDF890ADB9D4446A62EB3FA /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/src/main.cpp */,
-				DAFFC90B27374B8F87E6E6C7 /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/src/tools.cpp */,
-				7C15DBB7490D4859AF6D16D7 /* /Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/src/ukf.cpp */,
+				3CDF890ADB9D4446A62EB3FA /* main.cpp in Sources */,
+				DAFFC90B27374B8F87E6E6C7 /* tools.cpp in Sources */,
+				7C15DBB7490D4859AF6D16D7 /* ukf.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,9 +275,12 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+				);
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
@@ -333,7 +288,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/ide_profiles/xcode";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = RelWithDebInfo;
 		};
@@ -344,9 +304,12 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+				);
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
@@ -354,7 +317,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/ide_profiles/xcode";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = MinSizeRel;
 		};
@@ -374,9 +342,12 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+				);
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
@@ -384,7 +355,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/ide_profiles/xcode";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = RelWithDebInfo;
 		};
@@ -395,9 +371,12 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+				);
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
@@ -405,7 +384,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/ide_profiles/xcode";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Debug;
 		};
@@ -416,9 +400,12 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+				);
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
@@ -426,7 +413,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/ide_profiles/xcode";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Release;
 		};
@@ -439,20 +431,47 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+				);
 				INSTALL_PATH = "";
 				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1.11.0/lib";
-				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib /usr/local/opt/openssl/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1.11.0/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/libuv/1.11.0/lib";
-				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -I/usr/local/include -I/usr/local/opt/openssl/include    -std=c++11";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lz -lssl -luv -luWS";
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/lib,
+					"/usr/local/opt/openssl/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/opt/openssl/lib,
+					"/usr/local/Cellar/libuv/1.11.0/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/Cellar/libuv/1.11.0/lib,
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"-I/usr/local/include",
+					"-I/usr/local/opt/openssl/include",
+					"-std=c++11",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-lz",
+					"-lssl",
+					"-luv",
+					"-luWS",
+				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = UnscentedKF;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/ide_profiles/xcode";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = RelWithDebInfo;
 		};
@@ -463,9 +482,12 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+				);
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
@@ -473,7 +495,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/ide_profiles/xcode";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = MinSizeRel;
 		};
@@ -495,20 +522,47 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+				);
 				INSTALL_PATH = "";
 				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1.11.0/lib";
-				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib /usr/local/opt/openssl/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1.11.0/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/libuv/1.11.0/lib";
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -I/usr/local/include -I/usr/local/opt/openssl/include    -std=c++11";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lz -lssl -luv -luWS";
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/lib,
+					"/usr/local/opt/openssl/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/opt/openssl/lib,
+					"/usr/local/Cellar/libuv/1.11.0/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/Cellar/libuv/1.11.0/lib,
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"-I/usr/local/include",
+					"-I/usr/local/opt/openssl/include",
+					"-std=c++11",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-lz",
+					"-lssl",
+					"-luv",
+					"-luWS",
+				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = UnscentedKF;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/ide_profiles/xcode";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Release;
 		};
@@ -530,20 +584,46 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+				);
 				INSTALL_PATH = "";
 				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1.11.0/lib";
-				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib /usr/local/opt/openssl/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1.11.0/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/libuv/1.11.0/lib";
-				OTHER_CPLUSPLUSFLAGS = "   -I/usr/local/include -I/usr/local/opt/openssl/include    -std=c++11";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lz -lssl -luv -luWS";
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/lib,
+					"/usr/local/opt/openssl/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/opt/openssl/lib,
+					"/usr/local/Cellar/libuv/1.11.0/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/Cellar/libuv/1.11.0/lib,
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-I/usr/local/include",
+					"-I/usr/local/opt/openssl/include",
+					"-std=c++11",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-lz",
+					"-lssl",
+					"-luv",
+					"-luWS",
+				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = UnscentedKF;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/ide_profiles/xcode";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Debug;
 		};
@@ -554,9 +634,12 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+				);
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
@@ -564,7 +647,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/ide_profiles/xcode";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Debug;
 		};
@@ -577,20 +665,47 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+				);
 				INSTALL_PATH = "";
 				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1.11.0/lib";
-				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib /usr/local/opt/openssl/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1.11.0/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/libuv/1.11.0/lib";
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -I/usr/local/include -I/usr/local/opt/openssl/include    -std=c++11";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lz -lssl -luv -luWS";
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/lib,
+					"/usr/local/opt/openssl/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/opt/openssl/lib,
+					"/usr/local/Cellar/libuv/1.11.0/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/Cellar/libuv/1.11.0/lib,
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"-I/usr/local/include",
+					"-I/usr/local/opt/openssl/include",
+					"-std=c++11",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-lz",
+					"-lssl",
+					"-luv",
+					"-luWS",
+				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = UnscentedKF;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/ide_profiles/xcode";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = MinSizeRel;
 		};
@@ -610,9 +725,12 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+				);
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
@@ -620,7 +738,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/srikanthnarayanan/Documents/GitHubRepos/CarND-Unscented-Kalman-Filter/ide_profiles/xcode";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Release;
 		};
