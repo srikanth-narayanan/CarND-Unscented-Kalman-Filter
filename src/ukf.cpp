@@ -26,10 +26,10 @@ UKF::UKF() {
   // Process noise standard deviation longitudinal acceleration in m/s^2
   // Assuming the maximum accleration acheived by bicyle is 0.231 m/s2, which is
   // equivalent to reaching 21.6 kph in 26s. Hence using half of this square.
-  std_a_ = 2;
+  std_a_ = 30;
 
   // Process noise standard deviation yaw acceleration in rad/s^2
-  std_yawdd_ = 0.3;
+  std_yawdd_ = 30;
 
   // Laser measurement noise standard deviation position1 in m
   std_laspx_ = 0.15;
@@ -158,6 +158,8 @@ void UKF::ProcessMeasurement(MeasurementPackage meas_package) {
         
         Prediction(dt);
         
+        std::cout << "Can Predict" << std::endl;
+        
         /***********************************************************************
          *  Update
          **********************************************************************/
@@ -165,11 +167,13 @@ void UKF::ProcessMeasurement(MeasurementPackage meas_package) {
         if (meas_package.sensor_type_ == MeasurementPackage::LASER)
         {
             UpdateLidar(meas_package);
+            std::cout << "Can Update Lidar" << std::endl;
         }
         
         if (meas_package.sensor_type_ == MeasurementPackage::RADAR)
         {
             UpdateRadar(meas_package);
+            std::cout << "Can udpate Radar" << std::endl;
         }
     }
 }
@@ -202,8 +206,8 @@ void UKF::Prediction(double delta_t) {
     // set remaining columns of sigma points
     for (int i = 0; i < n_x_; i++)
     {
-        Xsig.col(i+1) = x_ + (sqrt(lambda_ + n_x_) * A.col(i));
-        Xsig.col(i+1+n_x_) = x_ - (sqrt(lambda_ + n_x_) * A.col(i));
+        Xsig.col(i + 1) = x_ + sqrt(lambda_ + n_x_) * A.col(i);
+        Xsig.col(i + 1 + n_x_) = x_ - sqrt(lambda_ + n_x_) * A.col(i);
     }
     
     /***************************************************************************
@@ -219,10 +223,13 @@ void UKF::Prediction(double delta_t) {
     // Create Sigma Points Matrix Augmented
     MatrixXd Xsig_aug = MatrixXd(n_aug_, 2 * n_aug_ + 1);
     
+    // Set lambda for n_aug
+    lambda_ = 3 - n_aug_;
+    
     // Fill first 5 values of aug vector with x state and rest zero
     x_aug.head(n_x_) = x_;
     x_aug(5) = 0;
-    x_aug(5) = 0;
+    x_aug(6) = 0;
     
     // add values to Augmented Co-variance Matrix
     P_aug.fill(0.0);
