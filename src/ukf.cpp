@@ -29,7 +29,7 @@ UKF::UKF() {
     std_a_ = 1.5;
     
     // Process noise standard deviation yaw acceleration in rad/s^2
-    std_yawdd_ = 0.5;
+    std_yawdd_ = 0.6;
     
     // Laser measurement noise standard deviation position1 in m
     std_laspx_ = 0.15;
@@ -111,11 +111,11 @@ void UKF::ProcessMeasurement(MeasurementPackage meas_package) {
             
             // Initialise state Co-variance Matrix
             // can later be tuned to see the effects
-            P_ << 0.15, 0, 0, 0, 0,
-            0, 0.15, 0, 0, 0,
-            0, 0, 1, 0, 0,
-            0, 0, 0, 1, 0,
-            0, 0, 0, 0, 1;
+            P_ << 1, 0, 0, 0, 0,
+                  0, 1, 0, 0, 0,
+                  0, 0, 1, 0, 0,
+                  0, 0, 0, 1, 0,
+                  0, 0, 0, 0, 1;
             
             // Initialise timestamp
             time_us_ = meas_package.timestamp_;
@@ -135,7 +135,7 @@ void UKF::ProcessMeasurement(MeasurementPackage meas_package) {
                  */
                 float rho = meas_package.raw_measurements_(0);
                 float phi = meas_package.raw_measurements_(1);
-                float rho_dot = meas_package.raw_measurements_(2);
+
                 // Even though rho_dot is available cannot be initialised to
                 // state vector as the CTRV model, velocity is from the object's perspective
                 x_(0) = rho * cos(phi);
@@ -202,9 +202,6 @@ void UKF::Prediction(double delta_t) {
     
     // Create Sigma Points Matrix Augmented
     MatrixXd Xsig_aug = MatrixXd(n_aug_, 2 * n_aug_ + 1);
-    
-    //set lambda for augmented sigma points
-    lambda_ = 3 - n_aug_;
     
     
     // Fill first 5 values of aug vector with x state and rest zero
@@ -318,7 +315,7 @@ void UKF::Prediction(double delta_t) {
         
         P_ = P_ + weights_(i) * x_diff * x_diff.transpose();
     }
-    
+    cout << "X after predict = " << x_ <<endl;
 }
 
 /**
