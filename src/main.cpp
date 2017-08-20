@@ -130,7 +130,9 @@ int main()
     	  VectorXd RMSE = tools.CalculateRMSE(estimations, ground_truth);
             //std::cout << "px = " << p_x << std::endl;
             //std::cout << "py = " << p_y << std::endl;
-            std::cout << "RMSE = " << RMSE << std::endl;
+            //std::cout << "RMSE = " << RMSE << std::endl;
+            //std::cout << ukf.NIS_laser_ << std::endl;
+            //std::cout << ukf.NIS_radar_ << std::endl;
 
           json msgJson;
           msgJson["estimate_x"] = p_x;
