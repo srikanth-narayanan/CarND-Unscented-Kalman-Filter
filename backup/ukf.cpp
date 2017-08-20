@@ -12,7 +12,7 @@ using std::vector;
  */
 UKF::UKF() {
     // if this is false, laser measurements will be ignored (except during init)
-    use_laser_ = true;
+    use_laser_ = false;
     
     // if this is false, radar measurements will be ignored (except during init)
     use_radar_ = true;
@@ -26,10 +26,10 @@ UKF::UKF() {
     // Process noise standard deviation longitudinal acceleration in m/s^2
     // Assuming the maximum accleration acheived by bicyle is 0.231 m/s2, which is
     // equivalent to reaching 21.6 kph in 26s. Hence using half of this square.
-    std_a_ = 1.8;
+    std_a_ = 1.5;
     
     // Process noise standard deviation yaw acceleration in rad/s^2
-    std_yawdd_ = 0.3;
+    std_yawdd_ = 0.6;
     
     // Laser measurement noise standard deviation position1 in m
     std_laspx_ = 0.15;
@@ -111,8 +111,8 @@ void UKF::ProcessMeasurement(MeasurementPackage meas_package) {
             
             // Initialise state Co-variance Matrix
             // can later be tuned to see the effects
-            P_ << 0.15, 0, 0, 0, 0,
-                  0, 0.15, 0, 0, 0,
+            P_ << 1, 0, 0, 0, 0,
+                  0, 1, 0, 0, 0,
                   0, 0, 1, 0, 0,
                   0, 0, 0, 1, 0,
                   0, 0, 0, 0, 1;
@@ -135,7 +135,7 @@ void UKF::ProcessMeasurement(MeasurementPackage meas_package) {
                  */
                 float rho = meas_package.raw_measurements_(0);
                 float phi = meas_package.raw_measurements_(1);
-                
+
                 // Even though rho_dot is available cannot be initialised to
                 // state vector as the CTRV model, velocity is from the object's perspective
                 x_(0) = rho * cos(phi);
@@ -261,7 +261,7 @@ void UKF::Prediction(double delta_t) {
         }
         
         double v_p = v;
-        double yaw_p = yaw + yawd * delta_t;
+        double yaw_p = yaw + yaw * delta_t;
         double yawd_p = yawd;
         
         // add noise
